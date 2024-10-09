@@ -125,7 +125,7 @@ ul {
     display: inline-block;
     width: 30%;
     vertical-align: top;
-    margin: 0; /* Remove extra margin */
+    margin: 0; 
 }
 
 .skill-container {
@@ -146,7 +146,31 @@ ul {
     text-decoration: underline;
 }
 
-/* Right Float */
+
 .right {
     float: right;
 }
+
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 16px;
+    text-align: left;
+    
+}
+
+.education-table table{
+    border-radius: 10%;
+}
+
+.education-table thead {
+    background-color: #007bff; 
+    color: #fff;
+}
+
+.education-table th, .education-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd; 
+}
+
