@@ -1,0 +1,65 @@
+body {
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+}
+
+.social-media {
+    gap: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    
+}
+
+.social-media , a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center; 
+}
+
+.education-details {
+    width: 100%; 
+    border: 1px;; 
+    margin: 20px 0; 
+}
+
+.education-details th,
+.education-details td {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    text-align: left; 
+}
+
+.education-details th {
+    background-color: #f2f2f2; 
+    font-weight: bold; 
+}
+
+.desc li{
+    padding: 5px;
+}
+
+.skill-cont{
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    
+}
+.skill-cont li{
+    padding: 5px;
+}
